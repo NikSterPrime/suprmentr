@@ -1,0 +1,29 @@
+Problem Statement:
+Develop a machine learning system that predicts a student’s academic performance before the final examination. The objective is to identify students who may need additional academic support and improve overall educational outcomes.
+
+Input (Features):
+The model can use multiple student-related factors such as:
+Number of study hours per week
+Attendance percentage
+Assignment completion rate and scores
+Internal assessment marks
+Previous semester GPA
+Participation in extracurricular activities
+Submission punctuality
+These inputs act as independent variables that influence student performance.
+
+Output (Target Variable):
+Predicted final exam score (Regression problem)
+OR
+Performance category such as Pass / Fail / Distinction (Classification problem)
+
+How ML Works in This Scenario:
+The machine learning model is trained on historical student data where input features and final results are already known. The model learns patterns and relationships between study behavior and performance outcomes. For example, it may learn that consistent attendance and higher assignment scores strongly correlate with better final grades.
+Once trained, the model can predict future student performance based on current data. If the model predicts low performance, early interventions such as mentoring, extra classes, or academic counseling can be provided.
+
+Impact and Benefits:
+Early identification of at-risk students
+Personalized academic support
+Data-driven decision-making for faculty
+Improved overall academic success rate
+This problem demonstrates how supervised learning can be applied in educational institutions to improve student outcomes and optimize learning strategies.
